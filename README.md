@@ -4,3 +4,5 @@
 ### Дата
 20.12.2017
 ### Скриншоты
+![about](screenshots/main.jpg) <br>
+![about](screenshots/info.jpg) <br>
