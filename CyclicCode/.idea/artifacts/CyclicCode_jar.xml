@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CyclicCode:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CyclicCode_jar</output-path>
+    <root id="archive" name="CyclicCode.jar">
+      <element id="module-output" name="CyclicCode" />
+    </root>
+  </artifact>
+</component>

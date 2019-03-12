@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="360.0" style="-fx-background-color: linear-gradient(to top left, #1F1E2B, #3A3A52);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="33.0" layoutY="125.0" text="АЛГОРИТМ ЦИКЛИЧЕСКОГО КОДА" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="11.0" text="?" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="90.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="33.0" text="Работа студента" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="55.0" text="группы СКС-15" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="79.0" text="Шишко А.А." textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="152.0" text="1) Делим принятый код на образующий" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="173.0" text="полином" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="214.0" text="Если w ≤ s то складываем полином" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="193.0" text="2) Определяем вес остатка" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="234.0" text="по модулю 2 на полученный остаток" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="254.0" text="Если w &gt; s то:" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="316.0" text="складываем остаток и сдвигаем" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="275.0" text="3) Делаем сдвиги влево и делим пока" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="296.0" text="условие не станет верным. После" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="336.0" text="обратно на такое же количество вправо" textFill="#eeeeee">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

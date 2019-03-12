@@ -1,0 +1,45 @@
+.button
+{
+    -fx-background-color: #2E2D40;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 1;
+}
+
+.button:hover
+{
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 1;
+    -fx-background-color: #3A3A52;
+}
+
+.button:pressed
+{
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 1;
+    -fx-background-color: #3A3A52;
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.text-area .increment-button ,.text-area .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.text-area .scroll-bar:horizontal .track,
+.text-area .scroll-bar:vertical .track{
+    -fx-background-color: white;
+    -fx-border-color: derive(gray,80%);
+
+    -fx-background-radius: 2em;
+    -fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.text-area .scroll-bar:horizontal .thumb,
+.text-area .scroll-bar:vertical .thumb {
+    -fx-background-color: #42475E;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
